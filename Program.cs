@@ -21,3 +21,16 @@ for (int i = 0; i < Volume; i++)
     string symbol = Console.ReadLine()!;
     Array[i] = symbol;
 }
+string[] NewArray = new string[Volume];
+int length = 3;
+int count = 0;
+
+for (int i = 0; i < Volume; i++)
+{
+    if (Array[i].Length <= length)
+    {
+        NewArray[count] = Array[i];
+        count++;
+
+    }
+}
