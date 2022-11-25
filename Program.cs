@@ -8,7 +8,14 @@
 [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 [“Russia”, “Denmark”, “Kazan”] → []
 */
-
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
+    Console.WriteLine();
+}
 Console.Clear();
 Console.WriteLine("Программа, которая из имеющегося массива строк формирует массив из строк, длина которых либо меньше либо равна 3 символа");
 Console.WriteLine();
@@ -34,3 +41,5 @@ for (int i = 0; i < Volume; i++)
 
     }
 }
+Console.WriteLine();
+PrintArray(NewArray);
