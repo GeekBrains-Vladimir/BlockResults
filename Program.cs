@@ -38,7 +38,6 @@ for (int i = 0; i < Volume; i++)
     {
         NewArray[count] = Array[i];
         count++;
-
     }
 }
 Console.WriteLine();
